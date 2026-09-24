@@ -14,7 +14,8 @@ preferences, sans copier d'historique prive, de token ou d'etat local sensible.
 - cree une memoire agentique canonique dans `~/.agents`
 - expose des adaptateurs pour Codex, Claude Code et Grok Build
 - garde un comportement coherent entre les outils
-- fournit 50 skills publics reels et reutilisables
+- fournit 50 skills publics integres comme demonstrateurs, pas comme skills de
+  production
 - prend en charge les skills locaux sans publier de bibliotheque privee
 - inclut des scripts d'installation, sauvegarde et restauration
 
@@ -44,7 +45,7 @@ Simulation:
 
 ### Fichiers principaux
 
-- `SKILLS.md`: catalogue public des 50 skills reutilisables
+- `SKILLS.md`: catalogue public des 50 skills demonstrateurs
 - `skills/*/SKILL.md`: instructions concretes de chaque skill
 - `templates/dotfiles/agents/BRAIN.md`: manifeste unifie
 - `templates/dotfiles/agents/AGENTS.md`: preferences canoniques
@@ -87,7 +88,8 @@ without copying private history, tokens or sensitive local state.
 - creates one canonical agent memory in `~/.agents`
 - exposes adapter files for Codex, Claude Code and Grok Build
 - keeps behavior consistent across tools
-- provides 50 real reusable public skills
+- provides 50 built-in public skills as demonstrators, not production-ready
+  skills
 - supports local skills without publishing private skill libraries
 - includes install, backup and restore scripts
 
@@ -117,7 +119,7 @@ Dry run:
 
 ### Main Files
 
-- `SKILLS.md`: public catalog of 50 reusable skills
+- `SKILLS.md`: public catalog of the 50 demonstrator skills
 - `skills/*/SKILL.md`: concrete instructions for each skill
 - `templates/dotfiles/agents/BRAIN.md`: unified manifesto
 - `templates/dotfiles/agents/AGENTS.md`: canonical preferences
